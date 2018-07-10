@@ -33,7 +33,7 @@ def deluxe_curfew_checker(time)
 end
 
 def platinum_curfew_checker(current_time, curfew_time)
-   if time > 11 && curfew_time == 11
+   if current_time > 11 && curfew_time == 11
     puts "You're in trouble! Better get back to Hogwarts quick!"
     elsif current_time == 11 && curfew_time == 11
     puts "Time to apparate!"
