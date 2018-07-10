@@ -38,7 +38,7 @@ def platinum_curfew_checker(current_time, curfew_time)
     elsif current_time == 11 && curfew_time == 11
     puts "Time to apparate!"
   else 
-    puts "You have #{11 - time} hour(s) left to keep having fun!"
+    puts "You have #{11 - current_time} hour(s) left to keep having fun!"
   end
 end
 
